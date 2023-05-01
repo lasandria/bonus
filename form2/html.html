@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form">
+            <fieldset class="fieldset">
+                <div class="revers">
+                <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="Имя*" 
+                    required
+                    data-validate-field="name"
+                >
+                </div>
+                
+                <div class="revers">
+                    <input 
+                        type="tel" 
+                        name="Phone" 
+                        placeholder="Телефон*" 
+                        required
+                        data-validate-field="tel"
+                        data-validate-field="phone"
+                    >
+                </div>
+                
+                <div class="revers">
+                    <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="E-mail*" 
+                        required
+                        data-validate-field="mail"
+
+                    >
+                </div>
+                <button>
+                    Заказать
+                </button>
+            </fieldset>
+            
+        </form>
+    </div>
+    <!-- <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script> -->
+    <script src="inputmask.min.js"></script>
+    <script src="just-validate.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

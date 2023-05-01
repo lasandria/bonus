@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 20px 30px 100px 29px;
+}
+
+.simplebar {
+    padding-right: 30px;
+    width: 340px;
+    height: 210px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 23.8px;
+
+}
+.simplebar-content-wrapper {
+    scrollbar-width: auto;
+    -ms-overflow-style: auto;
+}
+.simplebar-scrollbar::before {
+    background-color: #CCB26E;
+    
+}
